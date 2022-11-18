@@ -5,10 +5,10 @@
 #
 from abc import abstractmethod
 from enum import Enum
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Inference import MLEInference
-from pyclick.click_models.Param import ParamMLE
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankParamContainer, SingleParamContainer
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Inference import MLEInference
+from PyClick.pyclick.click_models.Param import ParamMLE
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankParamContainer, SingleParamContainer
 
 __author__ = 'Ilya Markov, Luka Stout'
 

@@ -189,7 +189,7 @@ class QueryDocumentParamContainer(ParamContainer):
 class RankParamContainer(ParamContainer):
     """A container of click model parameters that depend on rank."""
 
-    MAX_RANK_DEFAULT = 10
+    MAX_RANK_DEFAULT = 70
     """The default maximum rank."""
 
     def __init__(self, param_class, max_rank, *args):

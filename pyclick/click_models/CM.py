@@ -6,10 +6,10 @@
 from __future__ import division
 
 from enum import Enum
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Inference import MLEInference
-from pyclick.click_models.Param import ParamMLE
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Inference import MLEInference
+from PyClick.pyclick.click_models.Param import ParamMLE
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer
 
 __author__ = 'Luka Stout, Ilya Markov'
 

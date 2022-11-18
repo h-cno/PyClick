@@ -3,8 +3,8 @@
 #
 # Full copyright notice can be found in LICENSE.
 #
-from pyclick.click_models.task_centric.TaskCentricSearchSession import TaskCentricSearchSession
-from pyclick.search_session.SearchResult import SearchResult
+from PyClick.pyclick.click_models.task_centric.TaskCentricSearchSession import TaskCentricSearchSession
+from PyClick.pyclick.search_session.SearchResult import SearchResult
 
 __author__ = 'Ilya Markov, Bart Vredebregt, Nick de Wolf'
 

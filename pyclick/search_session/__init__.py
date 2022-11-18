@@ -1,4 +1,4 @@
 __author__ = 'Ilya Markov'
 
-from pyclick.search_session.SearchResult import SearchResult
-from pyclick.search_session.SearchSession import SearchSession
+from PyClick.pyclick.search_session.SearchResult import SearchResult
+from PyClick.pyclick.search_session.SearchSession import SearchSession

@@ -3,7 +3,7 @@
 #
 # Full copyright notice can be found in LICENSE.
 #
-from pyclick.click_models.Inference import EMInference
+from PyClick.pyclick.click_models.Inference import EMInference
 
 __author__ = 'Ilya Markov'
 

@@ -6,10 +6,10 @@
 from abc import abstractmethod
 from enum import Enum
 
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Param import ParamEM
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankParamContainer, SingleParamContainer
-from pyclick.click_models.task_centric.TaskCentricInferenceEM import TaskCentricEMInference
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Param import ParamEM
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankParamContainer, SingleParamContainer
+from PyClick.pyclick.click_models.task_centric.TaskCentricInferenceEM import TaskCentricEMInference
 
 __author__ = 'Aleksandr Chuklin, Ilya Markov'
 

@@ -3,7 +3,7 @@
 #
 # Full copyright notice can be found in LICENSE.
 #
-from pyclick.search_session.SearchSession import SearchSession
+from PyClick.pyclick.search_session.SearchSession import SearchSession
 
 __author__ = 'Ilya Markov'
 

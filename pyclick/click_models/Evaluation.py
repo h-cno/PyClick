@@ -15,7 +15,7 @@ import sys
 __author__ = 'Luka Stout, Finde Xumara, Ilya Markov'
 
 
-RANK_MAX = 10
+RANK_MAX = 70
 
 
 class Evaluation(object):

@@ -7,10 +7,10 @@ from enum import Enum
 import itertools
 import math
 
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Inference import EMInference
-from pyclick.click_models.Param import ParamEM, ParamStatic
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer, SingleParamContainer
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Inference import EMInference
+from PyClick.pyclick.click_models.Param import ParamEM, ParamStatic
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer, SingleParamContainer
 
 
 __author__ = 'Ilya Markov, Aleksandr Chuklin'

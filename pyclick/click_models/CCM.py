@@ -9,10 +9,10 @@ from enum import Enum
 import itertools
 import math
 
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Inference import EMInference
-from pyclick.click_models.Param import ParamEM, ParamStatic
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer, SingleParamContainer
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Inference import EMInference
+from PyClick.pyclick.click_models.Param import ParamEM, ParamStatic
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer, SingleParamContainer
 
 __author__ = 'Ilya Markov, Luka Stout, Aleksandr Chuklin'
 
@@ -104,7 +104,8 @@ class CCM(ClickModel):
 
         :returns: The list of examination probabilities for a given search session.
         """
-        session_exam = [1]
+        #session_exam = [1]
+        session_exam = [0.08]
 
         for rank, session_param in enumerate(session_params):
             attr = session_param[cls.param_names.attr].value()

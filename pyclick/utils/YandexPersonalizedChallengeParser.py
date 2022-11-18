@@ -5,8 +5,8 @@
 #
 from __future__ import print_function
 
-from pyclick.click_models.task_centric.TaskCentricSearchSession import TaskCentricSearchSession
-from pyclick.search_session.SearchResult import SearchResult
+from PyClick.pyclick.click_models.task_centric.TaskCentricSearchSession import TaskCentricSearchSession
+from PyClick.pyclick.search_session.SearchResult import SearchResult
 
 __author__ = 'Ilya Markov'
 

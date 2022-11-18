@@ -5,7 +5,7 @@
 #
 import json
 
-from pyclick.search_session import SearchResult
+from PyClick.pyclick.search_session import SearchResult
 
 
 __author__ = 'Ilya Markov'

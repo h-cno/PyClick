@@ -5,10 +5,10 @@
 #
 from enum import Enum
 
-from pyclick.click_models.ClickModel import ClickModel
-from pyclick.click_models.Inference import EMInference
-from pyclick.click_models.Param import ParamEM
-from pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankPrevClickParamContainer
+from PyClick.pyclick.click_models.ClickModel import ClickModel
+from PyClick.pyclick.click_models.Inference import EMInference
+from PyClick.pyclick.click_models.Param import ParamEM
+from PyClick.pyclick.click_models.ParamContainer import QueryDocumentParamContainer, RankPrevClickParamContainer
 
 
 __author__ = 'Ilya Markov'
